@@ -32,7 +32,7 @@ function Review(){
  }
    
  useEffect(() => {
-    let slider = setInterval(() => setcurrentIndex(prevState => prevState + 1), 6000);
+    let slider = setInterval(() => setcurrentIndex(prevState => prevState + 1), 4000);
     return () => {
         clearInterval (slider);
     }
@@ -65,10 +65,10 @@ return (
                 )
             })}
 
-            <button className ='prev' onClick = {previousReview}/*{() => setcurrentIndex(prevState => prevState - 1)}*/>
+            <button className ='prev' onClick = {previousReview}>
                 <FiChevronLeft/>
             </button>
-            <button className ='next' onClick = {nextReview}/*{() => setcurrentIndex(prevState => prevState + 1)}*/>
+            <button className ='next' onClick = {nextReview}>
                 <FiChevronRight/>
             </button>
         </div>
