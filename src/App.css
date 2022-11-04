@@ -119,15 +119,27 @@ Shop section
 .filter:hover{
   background-color:  hsl(21, 27%, 73%);
 }
-.product{
+.col-md-3{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+/*==Product card==*/
+.card{
   margin-bottom: 2rem;
   border-radius: 0.25rem;
   background-color: #fff;
   width: 18rem;
 }
-.product:hover{
+.card:hover{
   transform: scale(1.05);
   background-color: rgba(251, 251, 251, 0.15);
+}
+.card-img-top{
+  height: 220px;
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-bottom: 10px;
 }
 /*.product-card{
   display: flex;
@@ -137,11 +149,6 @@ Shop section
   margin-bottom: 10px;
   border-radius: 0.25rem;
 }
-img{
-  border-radius: 0.25rem 0.25rem 0 0;
-  margin-bottom: 10px;
-}
-*/
 /*
 =============== 
 Review section

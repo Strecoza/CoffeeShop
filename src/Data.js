@@ -252,9 +252,6 @@ export const data = [
       price: 5.95,
       image: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGdyZWVuJTIwbGF0dGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
     },
-    
-    
-  
   ]
   
   
