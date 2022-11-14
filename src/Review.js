@@ -41,7 +41,7 @@ function Review(){
 return (
     <section className='section'>
         <div >
-            <h2 className='title'> Reviews</h2>
+            <h2 className='title review'> Reviews</h2>
         </div>
         <div className = "section-center">
             {people.map((person, personIndex) =>{

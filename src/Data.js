@@ -2,14 +2,14 @@ export const data = [
 
     {
       id: 1,
-      itemName: "Party dress",
+      itemName: "Omar Garcia Luna",
       searchTerm: "coffee",
       price: "20.99 per lb",
       image: "https://images.unsplash.com/photo-1422207109431-97544339f995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDkzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=700&q=60"
     },
     {
       id: 2,
-      itemName: "Summer days",
+      itemName: "Summer muesli",
       searchTerm: "food",
       price: 14.99,
       image: "https://images.unsplash.com/photo-1571748982800-fa51082c2224?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDMwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
@@ -30,8 +30,8 @@ export const data = [
     },
     {
       id: 5,
-      itemName: "Cacao beans",
-      searchTerm: "cacao",
+      itemName: "Cocoa beans",
+      searchTerm: "cocoa",
       price: "10.99 per lb",
       image: "https://images.unsplash.com/photo-1612942601193-8a7f7b8cd9ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
     },
@@ -59,7 +59,7 @@ export const data = [
     {
       id: 9,
       itemName: "Summer mood",
-      searchTerm: "cacao",
+      searchTerm: "cocoa",
       price: "24.99 per lb",
       image: "https://images.unsplash.com/photo-1582082568487-628de573f601?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
     },
@@ -122,7 +122,7 @@ export const data = [
     {
       id: 18,
       itemName: "Fancy beans",
-      searchTerm: "cacao",
+      searchTerm: "cocoa",
       price: "19.99 per lb",
       image: "https://images.unsplash.com/photo-1545567724-9b16e57c906d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
     },

@@ -6,7 +6,6 @@ Global
 body {
   margin: 0;
   padding: 0;
-  background-color: #f6f6f6;
   font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
   font-size: 1rem;
@@ -45,9 +44,10 @@ button {
 
 /* section */
 .section {
-  width: 90vw;
-  margin: 5rem auto;
+  
+  margin: 0 auto;
   max-width: 1170px ;
+  justify-content: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -63,9 +63,17 @@ Navigation
 
 nav{
   display: flex;
-  justify-content: space-around;
-  padding: 1rem;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
   background:  hsl(21, 27%, 73%);
+}
+
+.links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .link{
@@ -76,7 +84,57 @@ nav{
 }
 .link:hover{
   color: hsl(21, 86%, 14%);
+  text-decoration: underline;
+  transition: all 0.5s ease;
+}
+.basket{
+  text-decoration: none;
+  color: black;
+  height: 2rem;
+  cursor: pointer;
+}
+.basket:hover, .basket:active{
+  color:  hsl(21, 86%, 14%);
+  scale: 2;
   text-shadow:  1px 0 15px #fff;
+  transition: all 0.4s ease;
+}
+
+.logo:hover{
+  text-decoration: none;
+}
+
+/*
+=============== 
+Shop section
+===============
+*/
+
+.banner{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  max-width: 1170px;
+  margin-bottom: 2rem;
+ }
+
+.banner-image{ 
+  background-size: cover;
+  width: 100vw;
+  max-height: 90vh;
+  margin-bottom: 0;
+}
+.banner-text{
+  position: absolute;
+  max-width: 500px;
+  min-width: 250px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 2rem;
+  right: 2rem;
+  left: 60%;
+  top: 20%;
+  color:#fff
 }
 .title {
   text-align: center;
@@ -86,17 +144,9 @@ nav{
   color: hsl(209, 34%, 30%);
   text-shadow: 2px 3px 4px  hsl(21, 73%, 87%);
 }
-article h4, h6{
-    text-transform: uppercase;
-    color: hsl(21, 86%, 14%);
-    margin-bottom: 0.25rem;
-}
 
-/*
-=============== 
-Shop section
-===============
-*/
+
+/* products */
 .products {
   display: flex;
   flex-wrap: wrap;
@@ -117,7 +167,7 @@ Shop section
   border-radius: 0.25rem;
 }
 .filter:hover{
-  background-color:  hsl(21, 27%, 73%);
+  background-color:  hsl(21, 48%, 35%);
 }
 .col-md-3{
   display: flex;
@@ -137,30 +187,28 @@ Shop section
   background-color: rgba(251, 251, 251, 0.15);
 }
 .card-img-top{
-  height: 220px;
+  height: 60%;
   border-radius: 0.25rem 0.25rem 0 0;
   margin-bottom: 10px;
 }
-/*.product-card{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
-  border-radius: 0.25rem;
+.btn-primary{
+  background-color: hsl(21, 86%, 14%);
+  color: #fff;
+  border: none;
 }
+.btn-primary:hover, .btn-primary:active{
+  background-color:  hsl(21, 48%, 35%);
+}
+
 /*
 =============== 
 Review section
 ===============
 /*Slider*/
 
-.title h2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 500;
-}
+.review {
+  margin-top: 2rem;
+} 
 
 .section-center {
   margin: 0 auto;
