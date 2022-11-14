@@ -15,7 +15,7 @@ import Home from './Home';
 import BeansValues from './BeansValues';
 import About from './About';
 import Review from './Review';
-import Basket from './Cart/CartPage';
+
 
 
 function App() {
