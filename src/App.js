@@ -16,7 +16,7 @@ import BeansValues from './BeansValues';
 import About from './About';
 import Review from './Review';
 import Basket from './Basket';
-
+import Footer from "./Footer";
 
 function App() {
  return(
@@ -41,6 +41,7 @@ function App() {
         <Route path = '/basket' element ={<Basket/>} />
       </Routes>
     </Router>
+  <Footer/>
   </header>
  );
 }
